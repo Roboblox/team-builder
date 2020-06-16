@@ -4,7 +4,7 @@ function TeamMember(props) {
   const { details } = props;
   // catch error
   if (!details) {
-    return <h3>Working fetching your team member&apos;s details...</h3>;
+    return <h3>Working fetching your team members&apos;s details...</h3>;
   }
 
   return (
